@@ -2,7 +2,7 @@
 
 x = int(input())
 while True:
-  if x%2 ==1:
+  if x%2 == 1:
     x = x * 3 + 1
     print(int(x))
     if x == 1:
