@@ -1,0 +1,14 @@
+#Collatz conjecture
+
+x = int(input())
+while True:
+  if x%2 ==1:
+    x = x * 3 + 1
+    print(int(x))
+    if x == 1:
+      break
+  elif x%2 == 0:
+    x = x/2
+    print(int(x))
+    if x == 1:
+     break
